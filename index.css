@@ -17,6 +17,18 @@ html {
   scroll-behavior: smooth;
 }
 
+.book-list {
+  display: block;
+}
+
+.add-book {
+  display: none;
+}
+
+.contact-info {
+  display: none;
+}
+
 .add-book,
 .contact-info{
   /*display: none;*/
@@ -24,8 +36,8 @@ html {
   text-align: center;
 }
 
-.contact-info {
-  /*display: none;*/
+.book-list h1 {
+  text-align: center;
 }
 
 footer {
@@ -33,8 +45,17 @@ footer {
   position: fixed;
   bottom: 0;
   text-align: center;
+  background: white;
 }
 
 form {
   width: 100%;
+}
+
+.book-list {
+  width: 70%;
+}
+
+.active {
+  color: goldenrod;
 }

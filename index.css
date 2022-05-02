@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
 * {
   font-family: Roboto, sans-serif;
   box-sizing: border-box;
@@ -54,4 +56,11 @@ form {
 
 .active {
   color: goldenrod;
+}
+
+.timeDisplay {
+  font-family: 'Crete Round', Roboto, sans-serif;
+  text-align: right;
+  padding: 10px 20px 80px;
+  color: dimgrey;
 }

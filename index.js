@@ -1,7 +1,7 @@
 import * as bkScript from './modules/book.js';
 import * as uiScript from './modules/bookUI.js';
 import './modules/dom-nav.js';
-import './modules/showTime.js'
+import './modules/showTime.js';
 
 document.addEventListener('DOMContentLoaded', uiScript.BookUI.displayBooks);
 document.querySelector('[data-book-form]').addEventListener('submit', (e) => {

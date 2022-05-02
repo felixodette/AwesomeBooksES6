@@ -1,6 +1,6 @@
 import { Book } from './book.js';
 
-export class BookUI {
+export default class BookUI {
   static displayBooks() {
     const books = Book.getList();
     books.forEach((book) => BookUI.addBooks(book));

@@ -1,7 +1,4 @@
-import {Book} from './book.js'
-
-const title = document.querySelector('[data-book]').value;
-const author = document.querySelector('[data-author]').value;
+import { Book } from './book.js';
 
 export class BookUI {
   static displayBooks() {
@@ -15,7 +12,7 @@ export class BookUI {
     bookRow.innerHTML = `
       <td>${book.title}</td>
       <td>${book.author}</td>
-      <td><button class="delete btn-secondary" id="btn-remove" btn-remove>Remove</button></td>`;
+      <td><button class="delete btn-secondary" id="btn-remove" data-btn-remove>Remove</button></td>`;
     list.appendChild(bookRow);
   }
 

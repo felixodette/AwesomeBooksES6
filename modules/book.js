@@ -1,6 +1,3 @@
-const title = document.querySelector('[data-book]').value;
-const author = document.querySelector('[data-author]').value;
-
 export class Book {
   constructor(title, author) {
     this.title = title;

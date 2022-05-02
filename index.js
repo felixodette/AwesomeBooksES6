@@ -3,7 +3,7 @@ import * as uiScript from './modules/bookUI.js';
 import './modules/dom-nav.js';
 
 document.addEventListener('DOMContentLoaded', uiScript.BookUI.displayBooks);
-document.querySelector(`[data-book-form]`).addEventListener('submit', (e) => {
+document.querySelector('[data-book-form]').addEventListener('submit', (e) => {
   e.preventDefault();
   const title = document.querySelector('[data-book]').value;
   const author = document.querySelector('[data-author]').value;

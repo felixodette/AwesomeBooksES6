@@ -19,6 +19,7 @@ html {
 
 .book-list {
   display: block;
+  width: 70%;
 }
 
 .add-book {
@@ -30,8 +31,7 @@ html {
 }
 
 .add-book,
-.contact-info{
-  /*display: none;*/
+.contact-info {
   width: 70%;
   text-align: center;
 }
@@ -50,10 +50,6 @@ footer {
 
 form {
   width: 100%;
-}
-
-.book-list {
-  width: 70%;
 }
 
 .active {

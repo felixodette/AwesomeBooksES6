@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+* {
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.book-list {
+  display: block;
+  width: 70%;
+}
+
+.add-book {
+  display: none;
+}
+
+.contact-info {
+  display: none;
+}
+
+.add-book,
+.contact-info {
+  width: 70%;
+  text-align: center;
+}
+
+.book-list h1 {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background: white;
+}
+
+form {
+  width: 100%;
+}
+
+.active {
+  color: goldenrod;
+}
+
+.timeDisplay {
+  font-family: 'Crete Round', Roboto, sans-serif;
+  text-align: right;
+  padding: 10px 20px 80px;
+  color: dimgrey;
+}

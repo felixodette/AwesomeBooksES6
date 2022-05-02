@@ -1,62 +1,25 @@
 # AwesomeBooksES6
-Project Name
-Description the project.
+In this project, I restructure my Awesome books app code. The goal is to make it more organized by using modules. I also practice the ES6 syntax that I have learned.
 
-Built With
-* Major languages
-* Frameworks
-* Technologies used
+Built With:
+* HTML, CSS, JavaScript
+* Bootstrap, Luxon
 
-Live Demo (if available)
-Live Demo Link
+## Live Demo
+[Awesome Books App](https://felixodette.github.io/AwesomeBooksES6/)
 
-Getting Started
-This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
-To get a local copy up and running follow these simple example steps.
+## Authors
+👤 Felix Odete
+* GitHub: @felixodette
+* Twitter: @Odette3000
+* LinkedIn: [Felix Odete](https://www.linkedin.com/in/felixodete)
 
-Prerequisites
-
-Setup
-
-Install
-
-Usage
-
-Run tests
-
-Deployment
-
-Authors
-👤 Author1
-* GitHub: @githubhandle
-* Twitter: @twitterhandle
-* LinkedIn: LinkedIn
-  👤 Author2
-* GitHub: @githubhandle
-* Twitter: @twitterhandle
-* LinkedIn: LinkedIn
-
-🤝 Contributing
+## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 Feel free to check the issues page.
 
-Show your support
+## Show your support
 Give a ⭐️ if you like this project!
-
-Acknowledgments
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
 📝 License
 This project is MIT licensed.
-
-* Page titles
-* Image text alternatives** (<img alt="alt text">)
-* Text headings
-* Color contrast
-* Resize
-* Interaction
-* Moving content
-* Multimedia
-* The basic structure of the page

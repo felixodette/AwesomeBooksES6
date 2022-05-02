@@ -1,6 +1,8 @@
 import { Book } from './book.js';
 
-export default class BookUI {
+/* eslint-disable import/prefer-default-export */
+
+export class BookUI {
   static displayBooks() {
     const books = Book.getList();
     books.forEach((book) => BookUI.addBooks(book));

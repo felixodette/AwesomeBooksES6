@@ -32,5 +32,3 @@ btnContact.addEventListener('click', () => {
   sectAdd.style.display = 'none';
   sectContact.style.display = 'block';
 });
-
-
